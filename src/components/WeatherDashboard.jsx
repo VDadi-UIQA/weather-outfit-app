@@ -4,7 +4,6 @@ import CityHistory from './CityHistory';
 import  fetchWeatherData  from '../utils/api';
 import { getOutfitRecommendation } from '../utils/outfitRules';
 
-
 export default function WeatherDashboard() {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState(null);
