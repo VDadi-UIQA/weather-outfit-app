@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import WeatherCard from './WeatherCard';
 import CityHistory from './CityHistory';
-import  fetchWeatherData  from '../utils/api';
+import { fetchWeatherData } from '../utils/api';
 import { getOutfitRecommendation } from '../utils/outfitRules';
 
 export default function WeatherDashboard() {
